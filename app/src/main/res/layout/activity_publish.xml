@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.finalproject.markoop.setting.PublishActivity">
+    
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/publish_ill"/>
+
+    <Button
+        android:id="@+id/btn_create_novel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Create Novel"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_primary"
+        android:paddingHorizontal="107dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="or"
+        android:textSize="12dp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/btn_add_episode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Add Episode"
+        android:textSize="12dp"
+        android:textColor="@color/dark_primary_color"
+        android:textAllCaps="false"
+        android:background="@drawable/btn_secondary"
+        android:paddingHorizontal="107dp"/>
+
+
+
+</LinearLayout>

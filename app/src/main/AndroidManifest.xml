@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Markoop">
         <activity
+            android:name="com.finalproject.markoop.setting.MyFavNovelActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.finalproject.markoop.setting.PublishActivity"
+            android:exported="true" />
+        <activity
             android:name="com.finalproject.markoop.WelcomeActivity"
             android:exported="true" />
         <activity
