@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import kotlinx.android.synthetic.main.activity_welcome.*
 
 
 class WelcomeActivity : AppCompatActivity() {
@@ -15,8 +16,8 @@ class WelcomeActivity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN)
         setContentView(R.layout.activity_welcome)
 
-//        btn_welcome.setOnClickListener {
-//            startActivity(Intent(this, MainActivity::class.java))
-//        }
+        btn_welcome.setOnClickListener {
+            startActivity(Intent(this, MainActivity::class.java))
+        }
     }
 }

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_novel_genre"
+                android:layout_width="115dp"
+                android:layout_height="160dp"
+                android:scaleType="centerCrop"/>
+            <TextView
+                android:id="@+id/tv_novel_title_genre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/img_novel_genre"
+                android:layout_marginTop="8dp"
+                android:layout_marginStart="14dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="16dp"
+                android:text="Novel Title"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/tv_novel_title_genre"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="6dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="4.5"
+                android:textSize="10dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv_novel_genre_genre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/img_novel_genre"
+                android:layout_below="@+id/tv_novel_title_genre"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="genre"
+                android:textSize="10dp"
+                android:textColor="@color/dark_primary_color"/>
+
+            <TextView
+                android:id="@+id/tv_synopsis_genre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/img_novel_genre"
+                android:layout_below="@+id/tv_novel_genre_genre"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="synopsis"
+                android:textSize="10dp"
+                android:textColor="@color/black"
+                android:maxLines="5"
+                android:ellipsize="end"
+                android:lineSpacingExtra="5dp"
+                android:letterSpacing="0.06"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

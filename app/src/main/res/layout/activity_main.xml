@@ -7,15 +7,18 @@
     tools:context=".MainActivity">
 
     <FrameLayout
+        android:id="@+id/main_frame"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_main"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/navigation"/>
-
+        android:background="@color/white"
+        app:itemIconSize="16dp"
+        app:menu="@menu/navigation" />
 
 </RelativeLayout>

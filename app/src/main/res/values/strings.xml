@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">Markoop</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="novel_title">
+        <item>Bumi</item>
+        <item>Bulan</item>
+        <item>Matahari</item>
+        <item>Ceroz Batozar</item>
+        <item>Komet</item>
+    </string-array>
+
+    <string-array name="novel_genre">
+        <item>Fantasy</item>
+        <item>Fantasy</item>
+        <item>Fantasy</item>
+        <item>Fantasy</item>
+        <item>Fantasy</item>
+        <item>Fantasy</item>
+    </string-array>
+
+    <string-array name="novel_synopsis">
+        <item>Raib adalah seorang remaja putri berusia 15th. Dia hidup bersama dengan kedua orangtuanya. Dia mempunyai 2 ekor kucing si putih dan si hitam. Dia juga bersekolah seperti remaja kebanyakan dan mempunyai seorang teman dekat bernama Seli. Namun anehnya sesuai dengan namanya, Raib bisa menghilang. Dia bisa menghilangkan dirinya sendiri hanya dengan menutup mata menggunakan kedua tangannya.</item>
+        <item>Raib adalah seorang remaja putri berusia 15th. Dia hidup bersama dengan kedua orangtuanya. Dia mempunyai 2 ekor kucing si putih dan si hitam. Dia juga bersekolah seperti remaja kebanyakan dan mempunyai seorang teman dekat bernama Seli. Namun anehnya sesuai dengan namanya, Raib bisa menghilang. Dia bisa menghilangkan dirinya sendiri hanya dengan menutup mata menggunakan kedua tangannya.</item>
+        <item>Raib adalah seorang remaja putri berusia 15th. Dia hidup bersama dengan kedua orangtuanya. Dia mempunyai 2 ekor kucing si putih dan si hitam. Dia juga bersekolah seperti remaja kebanyakan dan mempunyai seorang teman dekat bernama Seli. Namun anehnya sesuai dengan namanya, Raib bisa menghilang. Dia bisa menghilangkan dirinya sendiri hanya dengan menutup mata menggunakan kedua tangannya.</item>
+        <item>Raib adalah seorang remaja putri berusia 15th. Dia hidup bersama dengan kedua orangtuanya. Dia mempunyai 2 ekor kucing si putih dan si hitam. Dia juga bersekolah seperti remaja kebanyakan dan mempunyai seorang teman dekat bernama Seli. Namun anehnya sesuai dengan namanya, Raib bisa menghilang. Dia bisa menghilangkan dirinya sendiri hanya dengan menutup mata menggunakan kedua tangannya.</item>
+        <item>Raib adalah seorang remaja putri berusia 15th. Dia hidup bersama dengan kedua orangtuanya. Dia mempunyai 2 ekor kucing si putih dan si hitam. Dia juga bersekolah seperti remaja kebanyakan dan mempunyai seorang teman dekat bernama Seli. Namun anehnya sesuai dengan namanya, Raib bisa menghilang. Dia bisa menghilangkan dirinya sendiri hanya dengan menutup mata menggunakan kedua tangannya.</item>
+        <item>Raib adalah seorang remaja putri berusia 15th. Dia hidup bersama dengan kedua orangtuanya. Dia mempunyai 2 ekor kucing si putih dan si hitam. Dia juga bersekolah seperti remaja kebanyakan dan mempunyai seorang teman dekat bernama Seli. Namun anehnya sesuai dengan namanya, Raib bisa menghilang. Dia bisa menghilangkan dirinya sendiri hanya dengan menutup mata menggunakan kedua tangannya.</item>
+    </string-array>
+
+    <string-array name="novel_author">
+        <item>Tere Liye</item>
+        <item>Tere Liye</item>
+        <item>Tere Liye</item>
+        <item>Tere Liye</item>
+        <item>Tere Liye</item>
+        <item>Tere Liye</item>
+    </string-array>
 </resources>
