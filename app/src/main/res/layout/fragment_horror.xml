@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".genre.HorrorFragment">
+    tools:context="com.finalproject.markoop.genre.HorrorFragment">
 
     <TextView
         android:layout_width="match_parent"

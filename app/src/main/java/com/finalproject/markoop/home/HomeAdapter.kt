@@ -1,13 +1,11 @@
-package com.aulia.dean.markoop.home
+package com.finalproject.markoop.home
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.aulia.dean.markoop.R
-import com.aulia.dean.markoop.genre.GenreModel
-import com.aulia.dean.markoop.genre.NovelListAdapter
-import kotlinx.android.synthetic.main.item_genre.view.*
+import com.finalproject.dean.markoop.R
+import com.finalproject.markoop.genre.GenreModel
 import kotlinx.android.synthetic.main.item_grid_home.view.*
 
 class HomeAdapter(private val listHome: ArrayList<GenreModel>) : RecyclerView.Adapter<HomeAdapter.ViewHolder>() {
@@ -20,13 +18,13 @@ class HomeAdapter(private val listHome: ArrayList<GenreModel>) : RecyclerView.Ad
         }
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): HomeAdapter.ViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.item_grid_home, parent, false)
         return ViewHolder(view)
     }
 
-    override fun onBindViewHolder(holder: HomeAdapter.ViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bind(listHome[position])
     }
 

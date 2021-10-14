@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.aulia.dean.markoop">
+    package="com.finalproject.dean.markoop">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Markoop">
         <activity
-            android:name=".WelcomeActivity"
+            android:name="com.finalproject.markoop.WelcomeActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.finalproject.markoop.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".SplashScreen"
+            android:name="com.finalproject.markoop.SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

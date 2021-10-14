@@ -1,4 +1,4 @@
-package com.aulia.dean.markoop.home
+package com.finalproject.markoop.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,8 +6,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.aulia.dean.markoop.R
-import com.aulia.dean.markoop.genre.GenreModel
+import com.finalproject.dean.markoop.R
+import com.finalproject.markoop.genre.GenreModel
 import kotlinx.android.synthetic.main.fragment_home.*
 import java.util.ArrayList
 

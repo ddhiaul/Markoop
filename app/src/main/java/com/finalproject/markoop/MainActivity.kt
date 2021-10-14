@@ -1,10 +1,11 @@
-package com.aulia.dean.markoop
+package com.finalproject.markoop
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import com.aulia.dean.markoop.genre.GenreFragment
-import com.aulia.dean.markoop.home.HomeFragment
+import com.finalproject.dean.markoop.R
+import com.finalproject.markoop.genre.GenreFragment
+import com.finalproject.markoop.home.HomeFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 

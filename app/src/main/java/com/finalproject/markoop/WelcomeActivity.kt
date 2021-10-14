@@ -1,9 +1,10 @@
-package com.aulia.dean.markoop
+package com.finalproject.markoop
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import com.finalproject.dean.markoop.R
 import kotlinx.android.synthetic.main.activity_welcome.*
 
 
