@@ -11,6 +11,7 @@
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/nav_colors.xml" value="0.32037037037037036" />
         <entry key="app/src/main/res/drawable/search_view.xml" value="0.32037037037037036" />
+        <entry key="app/src/main/res/layout/activity_detail_novel.xml" value="0.13333333333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25009865232869927" />
         <entry key="app/src/main/res/layout/activity_my_fav_novel.xml" value="0.19927536231884058" />
         <entry key="app/src/main/res/layout/activity_publish.xml" value="0.25" />

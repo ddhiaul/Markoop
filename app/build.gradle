@@ -10,7 +10,7 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "com.team.markoop"
+        applicationId "com.finalproject.markoop"
         minSdk 22
         targetSdk 30
         versionCode 1
