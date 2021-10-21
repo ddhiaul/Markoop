@@ -3,7 +3,7 @@ package com.finalproject.markoop
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import com.finalproject.dean.markoop.R
+import com.finalproject.markoop.R
 import com.finalproject.markoop.genre.GenreFragment
 import com.finalproject.markoop.home.HomeFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView

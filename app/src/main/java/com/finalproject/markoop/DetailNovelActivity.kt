@@ -2,7 +2,7 @@ package com.finalproject.markoop
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.finalproject.dean.markoop.R
+import com.finalproject.markoop.R
 
 class DetailNovelActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

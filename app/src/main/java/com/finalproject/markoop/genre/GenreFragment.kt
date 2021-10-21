@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.FragmentManager
-import com.finalproject.dean.markoop.R
+import com.finalproject.markoop.R
 import kotlinx.android.synthetic.main.fragment_genre.*
 
 class GenreFragment : Fragment() {

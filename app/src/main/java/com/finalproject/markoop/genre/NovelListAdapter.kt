@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.finalproject.dean.markoop.R
+import com.finalproject.markoop.R
 import kotlinx.android.synthetic.main.item_genre.view.*
 
 class NovelListAdapter (private val listGenre : ArrayList<GenreModel>) : RecyclerView.Adapter<NovelListAdapter.ViewHolder>() {

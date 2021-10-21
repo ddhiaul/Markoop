@@ -5,7 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.finalproject.dean.markoop.R
+import com.finalproject.markoop.R
 
 class RomanceFragment : Fragment() {
 

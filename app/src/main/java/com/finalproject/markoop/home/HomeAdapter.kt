@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.finalproject.dean.markoop.R
+import com.finalproject.markoop.R
 import com.finalproject.markoop.genre.GenreModel
 import kotlinx.android.synthetic.main.item_grid_home.view.*
 
