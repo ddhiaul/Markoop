@@ -34,7 +34,6 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-
         model.addAll(getListNovel())
         rv_recomendation.setHasFixedSize(true)
         rv_best_fantasy.setHasFixedSize(true)
