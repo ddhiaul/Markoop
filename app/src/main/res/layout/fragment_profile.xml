@@ -24,7 +24,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="14dp"
                     android:text="My Profile"
-                    android:textColor="@color/black"
+                    android:textColor="@color/mainText"
                     android:textSize="21dp"
                     android:fontFamily="@font/montserrat_bold"
                     android:gravity="center"/>
@@ -52,7 +52,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="John Doe"
-                        android:textColor="@color/black"
+                        android:textColor="@color/mainText"
                         android:textSize="21dp"
                         android:fontFamily="@font/montserrat_semibold"
                         android:gravity="center"
@@ -63,7 +63,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="johndoe@gmail.com"
-                        android:textColor="@color/black"
+                        android:textColor="@color/mainText"
                         android:textSize="12dp"
                         android:fontFamily="@font/montserrat_regular"
                         android:gravity="center"
@@ -80,42 +80,46 @@
                             android:id="@+id/btn_fav_novel"
                             android:layout_width="match_parent"
                             android:layout_height="50dp">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="My favorite novel"
-                                android:textSize="12dp"
-                                android:textColor="@color/black"
-                                android:fontFamily="@font/montserrat_regular"
                                 android:layout_marginVertical="18dp"
-                                android:layout_marginLeft="16dp"/>
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:text="My favorite novel"
+                                android:textColor="@color/mainText"
+                                android:textSize="12dp" />
+
                             <View
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
-                                android:background="@android:color/darker_gray"
-                                android:layout_alignParentBottom="true"/>
+                                android:layout_alignParentBottom="true"
+                                android:background="@android:color/darker_gray" />
+
                             <ImageView
                                 android:layout_width="16dp"
                                 android:layout_height="16dp"
-                                android:src="@drawable/arrow_right"
                                 android:layout_alignParentEnd="true"
                                 android:layout_centerVertical="true"
-                                android:layout_marginRight="16dp"/>
+                                android:layout_marginRight="16dp"
+                                android:src="@drawable/arrow_right" />
                         </RelativeLayout>
 
                         <RelativeLayout
                             android:id="@+id/btn_my_novel"
                             android:layout_width="match_parent"
                             android:layout_height="50dp">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="My novel"
-                                android:textSize="12dp"
-                                android:textColor="@color/black"
-                                android:fontFamily="@font/montserrat_regular"
                                 android:layout_marginVertical="18dp"
-                                android:layout_marginLeft="16dp"/>
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:text="My novel"
+                                android:textColor="@color/mainText"
+                                android:textSize="12dp" />
                             <View
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
@@ -142,7 +146,7 @@
                                 android:layout_marginLeft="16dp"
                                 android:fontFamily="@font/montserrat_regular"
                                 android:text="Publish"
-                                android:textColor="@color/black"
+                                android:textColor="@color/mainText"
                                 android:textSize="12dp" />
                             <View
                                 android:layout_width="match_parent"
@@ -168,8 +172,8 @@
                                 android:layout_marginVertical="18dp"
                                 android:layout_marginLeft="16dp"
                                 android:fontFamily="@font/montserrat_regular"
-                                android:text="Dark theme"
-                                android:textColor="@color/black"
+                                android:text="Change theme"
+                                android:textColor="@color/mainText"
                                 android:textSize="12dp" />
                             <View
                                 android:layout_width="match_parent"
@@ -190,15 +194,16 @@
                             android:id="@+id/btn_about_us"
                             android:layout_width="match_parent"
                             android:layout_height="50dp">
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="About us"
-                                android:textSize="12dp"
-                                android:textColor="@color/black"
-                                android:fontFamily="@font/montserrat_regular"
                                 android:layout_marginVertical="18dp"
-                                android:layout_marginLeft="16dp"/>
+                                android:layout_marginLeft="16dp"
+                                android:fontFamily="@font/montserrat_regular"
+                                android:text="About us"
+                                android:textColor="@color/mainText"
+                                android:textSize="12dp" />
                             <View
                                 android:layout_width="match_parent"
                                 android:layout_height="1dp"
@@ -220,7 +225,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="logout"
-                        android:textColor="@color/white"
+                        android:textColor="@color/mainBackground"
                         android:fontFamily="@font/montserrat_semibold"
                         android:textAllCaps="false"
                         android:background="@drawable/btn_primary"

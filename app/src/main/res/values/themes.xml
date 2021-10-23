@@ -15,4 +15,6 @@
     </style>
 
     <color name="mainText">@color/black</color>
+    <color name="mainBackground">@color/white</color>
+    <color name="genreText">@color/dark_primary_color</color>
 </resources>
