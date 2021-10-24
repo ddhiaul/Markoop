@@ -1,9 +1,10 @@
-package com.finalproject.markoop
+package com.finalproject.markoop.landingPage
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
+import com.finalproject.markoop.MainActivity
 import com.finalproject.markoop.R
 import kotlinx.android.synthetic.main.activity_welcome.*
 
@@ -18,7 +19,7 @@ class WelcomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_welcome)
 
         btn_welcome.setOnClickListener {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
         }
     }
 }

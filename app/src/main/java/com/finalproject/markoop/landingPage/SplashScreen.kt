@@ -1,4 +1,4 @@
-package com.finalproject.markoop
+package com.finalproject.markoop.landingPage
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

@@ -17,4 +17,5 @@
     <color name="mainText">@color/white</color>
     <color name="mainBackground">@color/black</color>
     <color name="genreText">@color/primary_color</color>
+    <color name="inputText">@color/white</color>
 </resources>

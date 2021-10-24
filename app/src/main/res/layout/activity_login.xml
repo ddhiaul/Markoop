@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    android:orientation="vertical"
+    tools:context=".landingPage.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/btn_back_to_welcome"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@drawable/arrow_left"
+            android:layout_marginTop="28dp"
+            android:layout_marginStart="26dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Sign In"
+            android:textColor="@color/mainText"
+            android:textSize="24sp"
+            android:layout_marginTop="24dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/markoop_icon"/>
+
+        <EditText
+            android:id="@+id/et_email_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:layout_marginHorizontal="68dp"
+            android:layout_marginTop="80dp"
+            android:padding="12dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="12sp"
+            android:hint="Email"/>
+
+        <EditText
+            android:id="@+id/et_pass_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_input"
+            android:layout_marginHorizontal="68dp"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="12sp"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btn_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_primary"
+            android:layout_marginHorizontal="68dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:textColor="@color/mainBackground"
+            android:text="Sign In"
+            android:textSize="14dp"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/tv_to_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+            android:textSize="12sp"
+            android:textColor="@color/mainText"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
