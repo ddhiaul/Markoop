@@ -31,39 +31,42 @@ class ProfileFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val appSettingsPrefs: SharedPreferences? = this.getActivity()?.getSharedPreferences("PREF", Context.MODE_PRIVATE)
+        val appSettingsPrefs: SharedPreferences? =
+            this.context?.getSharedPreferences("PREF", Context.MODE_PRIVATE)
         val isNightModeOn: Boolean = appSettingsPrefs!!.getBoolean(NIGHT_MODE, true)
         val isFirstStart: Boolean = appSettingsPrefs.getBoolean(FIRST_START,false)
         val editor: SharedPreferences.Editor = appSettingsPrefs.edit()
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P && isFirstStart ){
-            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
-        } else{
-            when {
-                isNightModeOn -> {
-                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-                } else -> {
-                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-            }
-            }
-        }
+//        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P && isFirstStart ){
+//            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
+//        } else{
+//            when {
+//                isNightModeOn -> {
+//                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+//                } else -> {
+//                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+//            }
+//            }
+//        }
+
         
         btn_theme.setOnCheckedChangeListener { buttonView, isChecked ->
             if (isChecked) {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-                editor.putBoolean(FIRST_START, false)
-                editor.putBoolean(NIGHT_MODE, true)
-                editor.apply()
+//                editor.putBoolean(FIRST_START, false)
+//                editor.putBoolean(NIGHT_MODE, true)
+//                editor.apply()
                 //recreate activity to make changes visible
 //                recreate(requireActivity())
             }else {
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-                editor.putBoolean(FIRST_START, false)
-                editor.putBoolean(NIGHT_MODE, false)
-                editor.apply()
+//                editor.putBoolean(FIRST_START, false)
+//                editor.putBoolean(NIGHT_MODE, false)
+//                editor.apply()
 //                recreate(requireActivity())
             }
         }
+
 
 //        btn_theme.setOnClickListener {
 //            if (isNightModeOn) {
