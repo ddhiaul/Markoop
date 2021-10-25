@@ -15,6 +15,10 @@ class LoginActivity : AppCompatActivity() {
 
         tv_to_signup.text = HtmlCompat.fromHtml(getString(R.string.go_to_signup),HtmlCompat.FROM_HTML_MODE_LEGACY)
 
+        tv_to_signup.setOnClickListener {
+            startActivity(Intent(this, SignUpActivity::class.java))
+        }
+
         btn_back_to_welcome.setOnClickListener {
             startActivity(Intent(this, WelcomeActivity::class.java))
         }
