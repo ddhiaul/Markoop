@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Markoop</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="go_to_signup"><![CDATA[Don\'t have an account? <b>Sing Up</b>]]></string>
+    <string name="go_to_signup">Don\'t have an account? <b>Sing Up</b></string>
 
     <string-array name="novel_title">
         <item>Bumi</item>

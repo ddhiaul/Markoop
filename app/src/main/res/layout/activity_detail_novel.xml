@@ -1,9 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.finalproject.markoop.DetailNovelActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_detail_novel"
+                    android:layout_width="match_parent"
+                    android:layout_height="572dp"
+                    android:scaleType="centerInside"/>
+
+                <ImageView
+                    android:id="@+id/btn_back_to_novel_list"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:src="@drawable/arrow_left"
+                    android:layout_marginTop="26dp"
+                    android:layout_marginStart="26dp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_detail_novel_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="38dp"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Novel Title"
+                android:textColor="@color/mainText"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/tv_detail_author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="38dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Author"
+                android:textColor="@color/mainText"
+                android:textSize="12sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginStart="38dp"
+                app:cardBackgroundColor="@color/inputText"
+                app:cardCornerRadius="50dp">
+
+                <TextView
+                    android:id="@+id/tv_detail_genre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="14dp"
+                    android:layout_marginVertical="4dp"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="Genre"
+                    android:textColor="@color/detailGenreText"
+                    android:textSize="12sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <com.ms.square.android.expandabletextview.ExpandableTextView
+                android:id="@+id/expandable_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:animDuration="2000">
+
+            </com.ms.square.android.expandabletextview.ExpandableTextView>
+
+            <Button
+                android:id="@+id/btn_read_first_ep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="12dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="38dp"
+                android:gravity="center"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Read first episode"
+                android:textColor="@color/mainBackground"
+                android:textAllCaps="false"
+                android:textSize="12sp"
+                android:background="@drawable/btn_primary"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_episode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="28dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
