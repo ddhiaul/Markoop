@@ -13,6 +13,7 @@
         <entry key="app/src/main/res/drawable/nav_colors.xml" value="0.32037037037037036" />
         <entry key="app/src/main/res/drawable/search_view.xml" value="0.32037037037037036" />
         <entry key="app/src/main/res/layout/activity_detail_novel.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_episode.xml" value="0.28966700395813527" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.24174943067186552" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25009865232869927" />
         <entry key="app/src/main/res/layout/activity_my_fav_novel.xml" value="0.19927536231884058" />
@@ -28,6 +29,7 @@
         <entry key="app/src/main/res/layout/fragment_mystery.xml" value="0.2953125" />
         <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.28125" />
         <entry key="app/src/main/res/layout/fragment_romance.xml" value="0.2953125" />
+        <entry key="app/src/main/res/layout/item_episode.xml" value="0.19927536231884058" />
         <entry key="app/src/main/res/layout/item_genre.xml" value="0.5" />
         <entry key="app/src/main/res/layout/item_grid_home.xml" value="0.5" />
         <entry key="app/src/main/res/layout/splash_screen.xml" value="0.1" />

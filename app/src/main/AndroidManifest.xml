@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Markoop">
         <activity
+            android:name=".EpisodeActivity"
+            android:exported="true" />
+        <activity
             android:name=".landingPage.SignUpActivity"
             android:exported="true" />
         <activity

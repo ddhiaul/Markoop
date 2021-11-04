@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/mainBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EpisodeActivity">
+
+    <RelativeLayout
+        android:id="@+id/episode_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/btn_arrow_back_to_novel_page"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginStart="26dp"
+            android:src="@drawable/arrow_left"/>
+
+        <TextView
+            android:id="@+id/tv_episode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Episode 1"
+            android:textSize="21sp"
+            android:textColor="@color/mainText"/>
+
+        <TextView
+            android:id="@+id/tv_novel_title_episode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="Novel Title"
+            android:textSize="18sp"
+            android:textColor="@color/mainText"/>
+
+        <TextView
+            android:id="@+id/tv_author_episode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_novel_title_episode"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="by Author"
+            android:textColor="@color/inputText"
+            android:textSize="11sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/episode_info">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_headlines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                android:gravity="center"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="ONE"
+                android:textSize="36sp"
+                android:textColor="@color/mainText"/>
+
+            <TextView
+                android:id="@+id/tv_release_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="Released on Nov 4, 2021"
+                android:textSize="11sp"
+                android:textColor="@color/inputText"/>
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="38dp"
+                android:layout_marginTop="30dp"/>
+
+            <Button
+                android:id="@+id/btn_next_episode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="42dp"
+                android:layout_marginHorizontal="41dp"
+                android:background="@drawable/btn_primary"
+                android:textAllCaps="false"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Next Episode"
+                android:textColor="@color/mainBackground"/>
+
+            <Button
+                android:id="@+id/btn_back_to_novel_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="41dp"
+                android:layout_marginBottom="32dp"
+                android:background="@drawable/btn_secondary"
+                android:textAllCaps="false"
+                android:fontFamily="@font/montserrat_semibold"
+                android:text="Back To Novel Page"
+                android:textColor="@color/genreText"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

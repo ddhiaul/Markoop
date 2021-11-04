@@ -19,4 +19,5 @@
     <color name="genreText">@color/dark_primary_color</color>
     <color name="inputText">@color/secondary_color</color>
     <color name="detailGenreText">@color/white</color>
+    <color name="dividerLine">#4D000000</color>
 </resources>

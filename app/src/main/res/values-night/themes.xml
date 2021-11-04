@@ -19,4 +19,5 @@
     <color name="genreText">@color/primary_color</color>
     <color name="inputText">@color/white</color>
     <color name="detailGenreText">@color/secondary_color</color>
+    <color name="dividerLine">@color/white</color>
 </resources>

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/mainBackground"
     android:orientation="vertical"
     android:gravity="center"
     tools:context="com.finalproject.markoop.setting.PublishActivity">
@@ -21,7 +22,7 @@
         android:fontFamily="@font/montserrat_semibold"
         android:text="Create Novel"
         android:textSize="12dp"
-        android:textColor="@color/white"
+        android:textColor="@color/mainBackground"
         android:textAllCaps="false"
         android:background="@drawable/btn_primary"
         android:paddingHorizontal="107dp"/>
@@ -43,7 +44,7 @@
         android:fontFamily="@font/montserrat_semibold"
         android:text="Add Episode"
         android:textSize="12dp"
-        android:textColor="@color/dark_primary_color"
+        android:textColor="@color/genreText"
         android:textAllCaps="false"
         android:background="@drawable/btn_secondary"
         android:paddingHorizontal="107dp"/>
