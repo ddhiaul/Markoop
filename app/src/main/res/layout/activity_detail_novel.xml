@@ -64,7 +64,7 @@
                 android:layout_marginTop="6dp"
                 android:layout_marginStart="38dp"
                 app:cardBackgroundColor="@color/inputText"
-                app:cardCornerRadius="50dp">
+                app:cardCornerRadius="12dp">
 
                 <TextView
                     android:id="@+id/tv_detail_genre"
@@ -79,13 +79,13 @@
 
             </androidx.cardview.widget.CardView>
 
-            <com.ms.square.android.expandabletextview.ExpandableTextView
-                android:id="@+id/expandable_textview"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:animDuration="2000">
+<!--            <com.ms.square.android.expandabletextview.ExpandableTextView-->
+<!--                android:id="@+id/expandable_textview"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                app:animDuration="2000">-->
 
-            </com.ms.square.android.expandabletextview.ExpandableTextView>
+<!--            </com.ms.square.android.expandabletextview.ExpandableTextView>-->
 
             <Button
                 android:id="@+id/btn_read_first_ep"

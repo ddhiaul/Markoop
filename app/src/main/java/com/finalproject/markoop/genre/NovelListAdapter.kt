@@ -7,13 +7,23 @@ import androidx.recyclerview.widget.RecyclerView
 import com.finalproject.markoop.R
 import kotlinx.android.synthetic.main.item_genre.view.*
 
-class NovelListAdapter (private val listGenre : ArrayList<GenreModel>) : RecyclerView.Adapter<NovelListAdapter.ViewHolder>() {
+class NovelListAdapter(private val listener: (GenreModel) -> Unit) : RecyclerView.Adapter<NovelListAdapter.ViewHolder>() {
+    private val listAllGenre = ArrayList<GenreModel>()
+
+    fun setData(items: ArrayList<GenreModel>) {
+        listAllGenre.clear()
+        listAllGenre.addAll(items)
+        notifyDataSetChanged()
+    }
+
     class ViewHolder(itemGenre: View) : RecyclerView.ViewHolder(itemGenre) {
-        fun bind(model: GenreModel) {
+        fun bind(model: GenreModel, listGenre: (GenreModel) -> Unit) {
             with(itemView) {
                 tv_novel_title_genre.setText(model.novelTitle)
                 tv_novel_genre_genre.setText(model.novelGenre)
                 tv_synopsis_genre.setText(model.novelSynopsis)
+
+                itemView.setOnClickListener { listGenre(model) }
             }
         }
     }
@@ -25,8 +35,8 @@ class NovelListAdapter (private val listGenre : ArrayList<GenreModel>) : Recycle
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(listGenre[position])
+        holder.bind(listAllGenre[position], listener)
     }
 
-    override fun getItemCount(): Int = listGenre.size
+    override fun getItemCount(): Int = listAllGenre.size
 }

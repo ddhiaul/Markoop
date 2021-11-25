@@ -10,9 +10,10 @@
         <entry key="app/src/main/res/drawable/genre_icon.xml" value="0.32037037037037036" />
         <entry key="app/src/main/res/drawable/ic_genre.xml" value="0.32037037037037036" />
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_markoop_background.xml" value="0.2814814814814815" />
         <entry key="app/src/main/res/drawable/nav_colors.xml" value="0.32037037037037036" />
         <entry key="app/src/main/res/drawable/search_view.xml" value="0.32037037037037036" />
-        <entry key="app/src/main/res/layout/activity_detail_novel.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_detail_novel.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_episode.xml" value="0.28966700395813527" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.24174943067186552" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25009865232869927" />

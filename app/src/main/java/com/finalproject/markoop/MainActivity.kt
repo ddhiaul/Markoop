@@ -1,7 +1,9 @@
 package com.finalproject.markoop
 
+import android.app.FragmentManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
 import com.finalproject.markoop.R
 import com.finalproject.markoop.genre.GenreFragment
@@ -37,6 +39,7 @@ class MainActivity : AppCompatActivity() {
             .replace(R.id.main_frame, fragment, fragment::class.java.simpleName)
             .addToBackStack(null).commit()
     }
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
