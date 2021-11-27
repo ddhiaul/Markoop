@@ -37,4 +37,12 @@
         <item>Tere Liye</item>
         <item>Tere Liye</item>
     </string-array>
+
+    <array name="novel_cover">
+        <item>@drawable/bumi</item>
+        <item>@drawable/bulan</item>
+        <item>@drawable/matahari</item>
+        <item>@drawable/cerosbatozar</item>
+        <item>@drawable/komet</item>
+    </array>
 </resources>

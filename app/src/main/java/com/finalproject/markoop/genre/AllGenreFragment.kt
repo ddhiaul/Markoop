@@ -48,6 +48,7 @@ class AllGenreFragment : Fragment() {
     }
 
     private fun getListGenre(): ArrayList<GenreModel> {
+        val novelCover = resources.obtainTypedArray(R.array.novel_cover)
         val novelTitle = resources.getStringArray(R.array.novel_title)
         val novelGenre = resources.getStringArray(R.array.novel_genre)
         val novelSynopsis = resources.getStringArray(R.array.novel_synopsis)
@@ -57,6 +58,7 @@ class AllGenreFragment : Fragment() {
 
         for (position in novelTitle.indices){
             val novel = GenreModel(
+                novelCover.getResourceId(position, -1),
                 novelTitle[position],
                 novelGenre[position],
                 novelSynopsis[position],

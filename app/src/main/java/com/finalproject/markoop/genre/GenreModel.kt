@@ -5,6 +5,7 @@ import kotlinx.android.parcel.Parcelize
 
 @Parcelize
 data class GenreModel (
+    var novelCover : Int,
     var novelTitle : String,
     var novelGenre : String,
     var novelSynopsis : String,

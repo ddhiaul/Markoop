@@ -1,18 +1,24 @@
 package com.finalproject.markoop.home
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.viewpager.widget.ViewPager
+import com.finalproject.markoop.DetailNovelActivity
+import com.finalproject.markoop.ImageSliderAdapter
 import com.finalproject.markoop.R
 import com.finalproject.markoop.genre.GenreModel
+import com.finalproject.markoop.genre.NovelListAdapter
 import kotlinx.android.synthetic.main.fragment_home.*
 import java.util.ArrayList
 
 class HomeFragment : Fragment() {
     private val model = ArrayList<GenreModel>()
+    private lateinit var homeAdapater : HomeAdapter
 
     companion object {
         fun defaultFragment() : HomeFragment {
@@ -22,6 +28,18 @@ class HomeFragment : Fragment() {
             return fragment
         }
     }
+
+    // creating object of ViewPager
+    var mViewPager: ViewPager? = null
+
+    // images array
+    var images = intArrayOf(
+        R.drawable.banner, R.drawable.banner, R.drawable.banner, R.drawable.banner,
+        R.drawable.banner
+    )
+
+    // Creating Object of ViewPagerAdapter
+    var mImageSliderAdapter: ImageSliderAdapter? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -33,6 +51,14 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        // Initializing the ViewPager Object
+        mViewPager = viewPager_home as ViewPager
+
+        // Initializing the ViewPagerAdapter
+        mImageSliderAdapter = ImageSliderAdapter(requireContext(), images)
+
+        // Adding the Adapter to the ViewPager
+        mViewPager!!.adapter = mImageSliderAdapter
 
         model.addAll(getListNovel())
         rv_recomendation.setHasFixedSize(true)
@@ -40,21 +66,35 @@ class HomeFragment : Fragment() {
 
         showRecomendedList()
         showBestFantasyList()
+
     }
 
     private fun showRecomendedList() {
-//        adapter = HomeAdapter { showSelected(it) }
-//        adapter.notifyDataSetChanged()
+        homeAdapater = HomeAdapter { showDetails(it) }
+        homeAdapater.notifyDataSetChanged()
+        homeAdapater.setData(getListNovel())
         rv_recomendation.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
-        rv_recomendation.adapter = HomeAdapter(model)
+        rv_recomendation.adapter = homeAdapater
+        rv_recomendation.setHasFixedSize(true)
+    }
+
+    private fun showDetails(it: GenreModel) {
+        val intent = Intent(context, DetailNovelActivity::class.java)
+        intent.putExtra(DetailNovelActivity.KEY_ALL_GENRE, it)
+        startActivity(intent)
     }
 
     private fun showBestFantasyList() {
+        homeAdapater = HomeAdapter { showDetails(it) }
+        homeAdapater.notifyDataSetChanged()
+        homeAdapater.setData(getListNovel())
         rv_best_fantasy.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
-        rv_best_fantasy.adapter = HomeAdapter(model)
+        rv_best_fantasy.adapter = homeAdapater
+        rv_best_fantasy.setHasFixedSize(true)
     }
 
     private fun getListNovel(): ArrayList<GenreModel> {
+        val novelCover = resources.obtainTypedArray(R.array.novel_cover)
         val novelTitle = resources.getStringArray(R.array.novel_title)
         val novelGenre = resources.getStringArray(R.array.novel_genre)
         val novelSynopsis = resources.getStringArray(R.array.novel_synopsis)
@@ -64,6 +104,7 @@ class HomeFragment : Fragment() {
 
         for (position in novelTitle.indices){
             val novel = GenreModel(
+                novelCover.getResourceId(position, -1),
                 novelTitle[position],
                 novelGenre[position],
                 novelSynopsis[position],

@@ -19,6 +19,7 @@ class DetailNovelActivity : AppCompatActivity() {
 
         model = intent.getParcelableExtra(KEY_ALL_GENRE)
 
+        img_detail_novel.setImageResource(model?.novelCover!!)
         tv_detail_novel_title.setText(model?.novelTitle)
         tv_detail_author.setText(model?.novelAuthor)
         tv_detail_genre.setText(model?.novelGenre)

@@ -4,6 +4,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import com.finalproject.markoop.R
 import kotlinx.android.synthetic.main.item_genre.view.*
 
@@ -19,6 +21,10 @@ class NovelListAdapter(private val listener: (GenreModel) -> Unit) : RecyclerVie
     class ViewHolder(itemGenre: View) : RecyclerView.ViewHolder(itemGenre) {
         fun bind(model: GenreModel, listGenre: (GenreModel) -> Unit) {
             with(itemView) {
+                Glide.with(itemView.context)
+                    .load(model.novelCover)
+                    .apply(RequestOptions().override(800))
+                    .into(img_novel_genre)
                 tv_novel_title_genre.setText(model.novelTitle)
                 tv_novel_genre_genre.setText(model.novelGenre)
                 tv_synopsis_genre.setText(model.novelSynopsis)
