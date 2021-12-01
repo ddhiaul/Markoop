@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Markoop">
         <activity
+            android:name=".profile.publish.CreateNovelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".profile.AboutUsActivity"
+            android:exported="true" />
+        <activity
             android:name=".EpisodeActivity"
             android:exported="true" />
         <activity
@@ -22,10 +28,10 @@
             android:name=".DetailNovelActivity"
             android:exported="true" />
         <activity
-            android:name=".setting.MyFavNovelActivity"
+            android:name=".profile.MyFavNovelActivity"
             android:exported="true" />
         <activity
-            android:name=".setting.PublishActivity"
+            android:name=".profile.PublishActivity"
             android:exported="true" />
         <activity
             android:name=".landingPage.WelcomeActivity"
