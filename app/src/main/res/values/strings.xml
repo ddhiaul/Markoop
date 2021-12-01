@@ -45,4 +45,58 @@
         <item>@drawable/cerosbatozar</item>
         <item>@drawable/komet</item>
     </array>
+
+    <string-array name="episode_title">
+        <item>Episode 6</item>
+        <item>Episode 5</item>
+        <item>Episode 4</item>
+        <item>Episode 3</item>
+        <item>Episode 2</item>
+        <item>Episode 1</item>
+    </string-array>
+
+    <string-array name="release_date">
+        <item>Release on Date Dec 6, 2021</item>
+        <item>Release on Date Nov 29, 2021</item>
+        <item>Release on Date Nov 22, 2021</item>
+        <item>Release on Date Nov 15, 2021</item>
+        <item>Release on Date Nov 8, 2021</item>
+        <item>Release on Date Nov 1, 2021</item>
+    </string-array>
+
+    <string-array name="headline">
+        <item>SIX</item>
+        <item>FIVE</item>
+        <item>FOUR</item>
+        <item>THREE</item>
+        <item>TWO</item>
+        <item>ONE</item>
+    </string-array>
+
+    <string-array name="content">
+        <item>Old Lanscombe moved totteringly from room to room, pulling up the blinds. Now and then he peered with screwed-up rheumy eyes through the windows.
+            Soon they would be coming back from the funeral. He shuffled along a little faster. There were so many windows.
+            Enderby Hall was a vast Victorian house built in the Gothic style. In every room the curtains were of rich faded brocade or velvet. Some of the walls were still hung with faded silk. In the green drawing room, the old butler glanced up at the portrait above the mantelpiece of old Cornelius Abernethie for whom Enderby Hall had been built. Cornelius Abernethie’s brown beard stuck forward aggressively, his hand rested on a terrestrial globe, whether by desire of the sitter, or as a symbolic conceit on the part of the artist, no one could tell.
+            A very forceful-looking gentleman, so old Lanscombe had always thought, and was glad that he himself had never known him personally. Mr. Richard had been his gentleman. A good master, Mr. Richard. And taken very sudden, he’d been, though of course the doctor had been attending him for some little time. Ah, but the master had never recovered from the shock of young Mr. Mortimer’s death. The old man shook his head as he hurried through a connecting door into the White Boudoir. Terrible, that had been, a real catastrophe. Such a fine upstanding young gentleman, so strong and healthy. You’d never have thought such a thing likely to happen to him. Pitiful, it had been, quite pitiful. And Mr. Gordon killed in the war. One thing on top of another. That was the way things went nowadays. Too much for the master, it had been. And yet he’d seemed almost himself a week ago.</item>
+        <item>Old Lanscombe moved totteringly from room to room, pulling up the blinds. Now and then he peered with screwed-up rheumy eyes through the windows.
+            Soon they would be coming back from the funeral. He shuffled along a little faster. There were so many windows.
+            Enderby Hall was a vast Victorian house built in the Gothic style. In every room the curtains were of rich faded brocade or velvet. Some of the walls were still hung with faded silk. In the green drawing room, the old butler glanced up at the portrait above the mantelpiece of old Cornelius Abernethie for whom Enderby Hall had been built. Cornelius Abernethie’s brown beard stuck forward aggressively, his hand rested on a terrestrial globe, whether by desire of the sitter, or as a symbolic conceit on the part of the artist, no one could tell.
+            A very forceful-looking gentleman, so old Lanscombe had always thought, and was glad that he himself had never known him personally. Mr. Richard had been his gentleman. A good master, Mr. Richard. And taken very sudden, he’d been, though of course the doctor had been attending him for some little time. Ah, but the master had never recovered from the shock of young Mr. Mortimer’s death. The old man shook his head as he hurried through a connecting door into the White Boudoir. Terrible, that had been, a real catastrophe. Such a fine upstanding young gentleman, so strong and healthy. You’d never have thought such a thing likely to happen to him. Pitiful, it had been, quite pitiful. And Mr. Gordon killed in the war. One thing on top of another. That was the way things went nowadays. Too much for the master, it had been. And yet he’d seemed almost himself a week ago.</item>
+        <item>Old Lanscombe moved totteringly from room to room, pulling up the blinds. Now and then he peered with screwed-up rheumy eyes through the windows.
+            Soon they would be coming back from the funeral. He shuffled along a little faster. There were so many windows.
+            Enderby Hall was a vast Victorian house built in the Gothic style. In every room the curtains were of rich faded brocade or velvet. Some of the walls were still hung with faded silk. In the green drawing room, the old butler glanced up at the portrait above the mantelpiece of old Cornelius Abernethie for whom Enderby Hall had been built. Cornelius Abernethie’s brown beard stuck forward aggressively, his hand rested on a terrestrial globe, whether by desire of the sitter, or as a symbolic conceit on the part of the artist, no one could tell.
+            A very forceful-looking gentleman, so old Lanscombe had always thought, and was glad that he himself had never known him personally. Mr. Richard had been his gentleman. A good master, Mr. Richard. And taken very sudden, he’d been, though of course the doctor had been attending him for some little time. Ah, but the master had never recovered from the shock of young Mr. Mortimer’s death. The old man shook his head as he hurried through a connecting door into the White Boudoir. Terrible, that had been, a real catastrophe. Such a fine upstanding young gentleman, so strong and healthy. You’d never have thought such a thing likely to happen to him. Pitiful, it had been, quite pitiful. And Mr. Gordon killed in the war. One thing on top of another. That was the way things went nowadays. Too much for the master, it had been. And yet he’d seemed almost himself a week ago.</item>
+        <item>Old Lanscombe moved totteringly from room to room, pulling up the blinds. Now and then he peered with screwed-up rheumy eyes through the windows.
+            Soon they would be coming back from the funeral. He shuffled along a little faster. There were so many windows.
+            Enderby Hall was a vast Victorian house built in the Gothic style. In every room the curtains were of rich faded brocade or velvet. Some of the walls were still hung with faded silk. In the green drawing room, the old butler glanced up at the portrait above the mantelpiece of old Cornelius Abernethie for whom Enderby Hall had been built. Cornelius Abernethie’s brown beard stuck forward aggressively, his hand rested on a terrestrial globe, whether by desire of the sitter, or as a symbolic conceit on the part of the artist, no one could tell.
+            A very forceful-looking gentleman, so old Lanscombe had always thought, and was glad that he himself had never known him personally. Mr. Richard had been his gentleman. A good master, Mr. Richard. And taken very sudden, he’d been, though of course the doctor had been attending him for some little time. Ah, but the master had never recovered from the shock of young Mr. Mortimer’s death. The old man shook his head as he hurried through a connecting door into the White Boudoir. Terrible, that had been, a real catastrophe. Such a fine upstanding young gentleman, so strong and healthy. You’d never have thought such a thing likely to happen to him. Pitiful, it had been, quite pitiful. And Mr. Gordon killed in the war. One thing on top of another. That was the way things went nowadays. Too much for the master, it had been. And yet he’d seemed almost himself a week ago.</item>
+        <item>Old Lanscombe moved totteringly from room to room, pulling up the blinds. Now and then he peered with screwed-up rheumy eyes through the windows.
+            Soon they would be coming back from the funeral. He shuffled along a little faster. There were so many windows.
+            Enderby Hall was a vast Victorian house built in the Gothic style. In every room the curtains were of rich faded brocade or velvet. Some of the walls were still hung with faded silk. In the green drawing room, the old butler glanced up at the portrait above the mantelpiece of old Cornelius Abernethie for whom Enderby Hall had been built. Cornelius Abernethie’s brown beard stuck forward aggressively, his hand rested on a terrestrial globe, whether by desire of the sitter, or as a symbolic conceit on the part of the artist, no one could tell.
+            A very forceful-looking gentleman, so old Lanscombe had always thought, and was glad that he himself had never known him personally. Mr. Richard had been his gentleman. A good master, Mr. Richard. And taken very sudden, he’d been, though of course the doctor had been attending him for some little time. Ah, but the master had never recovered from the shock of young Mr. Mortimer’s death. The old man shook his head as he hurried through a connecting door into the White Boudoir. Terrible, that had been, a real catastrophe. Such a fine upstanding young gentleman, so strong and healthy. You’d never have thought such a thing likely to happen to him. Pitiful, it had been, quite pitiful. And Mr. Gordon killed in the war. One thing on top of another. That was the way things went nowadays. Too much for the master, it had been. And yet he’d seemed almost himself a week ago.</item>
+        <item>Old Lanscombe moved totteringly from room to room, pulling up the blinds. Now and then he peered with screwed-up rheumy eyes through the windows.
+            Soon they would be coming back from the funeral. He shuffled along a little faster. There were so many windows.
+            Enderby Hall was a vast Victorian house built in the Gothic style. In every room the curtains were of rich faded brocade or velvet. Some of the walls were still hung with faded silk. In the green drawing room, the old butler glanced up at the portrait above the mantelpiece of old Cornelius Abernethie for whom Enderby Hall had been built. Cornelius Abernethie’s brown beard stuck forward aggressively, his hand rested on a terrestrial globe, whether by desire of the sitter, or as a symbolic conceit on the part of the artist, no one could tell.
+            A very forceful-looking gentleman, so old Lanscombe had always thought, and was glad that he himself had never known him personally. Mr. Richard had been his gentleman. A good master, Mr. Richard. And taken very sudden, he’d been, though of course the doctor had been attending him for some little time. Ah, but the master had never recovered from the shock of young Mr. Mortimer’s death. The old man shook his head as he hurried through a connecting door into the White Boudoir. Terrible, that had been, a real catastrophe. Such a fine upstanding young gentleman, so strong and healthy. You’d never have thought such a thing likely to happen to him. Pitiful, it had been, quite pitiful. And Mr. Gordon killed in the war. One thing on top of another. That was the way things went nowadays. Too much for the master, it had been. And yet he’d seemed almost himself a week ago.</item>
+    </string-array>
 </resources>

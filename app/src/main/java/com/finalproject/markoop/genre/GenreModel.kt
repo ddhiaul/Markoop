@@ -10,4 +10,8 @@ data class GenreModel (
     var novelGenre : String,
     var novelSynopsis : String,
     var novelAuthor : String,
+    var episodeTitle : String,
+    var releaseDate : String,
+    var headline : String,
+    var content : String,
 ) : Parcelable

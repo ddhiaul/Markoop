@@ -99,6 +99,10 @@ class HomeFragment : Fragment() {
         val novelGenre = resources.getStringArray(R.array.novel_genre)
         val novelSynopsis = resources.getStringArray(R.array.novel_synopsis)
         val novelAuthor = resources.getStringArray(R.array.novel_author)
+        val episodeTitle = resources.getStringArray(R.array.episode_title)
+        val releaseDate = resources.getStringArray(R.array.release_date)
+        val headline = resources.getStringArray(R.array.headline)
+        val content = resources.getStringArray(R.array.content)
 
         val model = ArrayList<GenreModel>()
 
@@ -109,6 +113,10 @@ class HomeFragment : Fragment() {
                 novelGenre[position],
                 novelSynopsis[position],
                 novelAuthor[position],
+                episodeTitle[position],
+                releaseDate[position],
+                headline[position],
+                content[position]
             )
             model.add(novel)
         }
