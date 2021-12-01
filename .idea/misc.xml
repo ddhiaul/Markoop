@@ -13,13 +13,14 @@
         <entry key="app/src/main/res/drawable/ic_markoop_background.xml" value="0.2814814814814815" />
         <entry key="app/src/main/res/drawable/nav_colors.xml" value="0.32037037037037036" />
         <entry key="app/src/main/res/drawable/search_view.xml" value="0.32037037037037036" />
-        <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_create_novel.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_detail_novel.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_episode.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.24174943067186552" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25009865232869927" />
         <entry key="app/src/main/res/layout/activity_my_fav_novel.xml" value="0.19927536231884058" />
+        <entry key="app/src/main/res/layout/activity_my_novel.xml" value="0.29583333333333334" />
         <entry key="app/src/main/res/layout/activity_publish.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.16077898550724637" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.165" />

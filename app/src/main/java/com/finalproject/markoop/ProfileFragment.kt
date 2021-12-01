@@ -11,6 +11,8 @@ import androidx.appcompat.app.AppCompatDelegate
 import com.finalproject.markoop.profile.MyFavNovelActivity
 import kotlinx.android.synthetic.main.fragment_profile.*
 import android.content.Context.MODE_PRIVATE
+import com.finalproject.markoop.profile.AboutUsActivity
+import com.finalproject.markoop.profile.MyNovelActivity
 
 import com.finalproject.markoop.profile.PublishActivity
 
@@ -49,6 +51,8 @@ class ProfileFragment : Fragment() {
 
         btn_fav_novel.setOnClickListener { startActivity(Intent(context, MyFavNovelActivity::class.java)) }
         btn_publish.setOnClickListener { startActivity(Intent(context, PublishActivity::class.java)) }
+        btn_my_novel.setOnClickListener { startActivity(Intent(context, MyNovelActivity::class.java)) }
+        btn_about_us.setOnClickListener { startActivity(Intent(context, AboutUsActivity::class.java)) }
     }
 
 

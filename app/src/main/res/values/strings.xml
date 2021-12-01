@@ -2,6 +2,7 @@
     <string name="app_name">Markoop</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="go_to_signup">Don\'t have an account? <b>Sing Up</b></string>
+    <string name="about">Markoop is an android application that allows users to read and create novels in digital form with various available genres. With the main display that displays all the best novels, which makes it easy for users to choose which genre and story they like. In addition to displaying the best novels, in the main display there is also a search feature, which is a feature that helps users to search for various types of stories and their genres. Markoop also certainly helps authors who want to work by writing stories. There are also certainly many people who have advantages in making or writing a story, but are confused to show their strengths to the world. With the rapid development of technology, an online reading application called Markoop was created, which is a useful application for people who want to express their writings and their stories. This app is a great place to read or write your own story and can be read by people all over the world. In this modern era, people rarely forget to bring their gadgets everywhere. Through this Markoop application we can read various written works for free anywhere and anytime.</string>
 
     <string-array name="novel_title">
         <item>Bumi</item>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Markoop">
         <activity
+            android:name=".profile.MyNovelActivity"
+            android:exported="true" />
+        <activity
             android:name=".profile.publish.CreateNovelActivity"
             android:exported="true" />
         <activity
