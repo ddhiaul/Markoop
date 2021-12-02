@@ -1,4 +1,4 @@
-package com.finalproject.markoop.genre
+package com.finalproject.markoop.model
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

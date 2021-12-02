@@ -11,8 +11,7 @@ import androidx.viewpager.widget.ViewPager
 import com.finalproject.markoop.DetailNovelActivity
 import com.finalproject.markoop.ImageSliderAdapter
 import com.finalproject.markoop.R
-import com.finalproject.markoop.genre.GenreModel
-import com.finalproject.markoop.genre.NovelListAdapter
+import com.finalproject.markoop.model.GenreModel
 import kotlinx.android.synthetic.main.fragment_home.*
 import java.util.ArrayList
 

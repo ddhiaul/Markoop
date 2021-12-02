@@ -9,6 +9,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.finalproject.markoop.DetailNovelActivity
 import com.finalproject.markoop.R
+import com.finalproject.markoop.adapter.NovelListAdapter
+import com.finalproject.markoop.model.GenreModel
 import kotlinx.android.synthetic.main.fragment_all_genre.*
 
 class AllGenreFragment : Fragment() {

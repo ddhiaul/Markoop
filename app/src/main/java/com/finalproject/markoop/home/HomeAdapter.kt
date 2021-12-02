@@ -5,7 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.finalproject.markoop.R
-import com.finalproject.markoop.genre.GenreModel
+import com.finalproject.markoop.model.GenreModel
 import kotlinx.android.synthetic.main.item_grid_home.view.*
 
 class HomeAdapter(private val listener: (GenreModel) -> Unit) : RecyclerView.Adapter<HomeAdapter.ViewHolder>() {

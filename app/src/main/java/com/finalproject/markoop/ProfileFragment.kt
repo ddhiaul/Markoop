@@ -19,6 +19,8 @@ import com.finalproject.markoop.profile.PublishActivity
 
 class ProfileFragment : Fragment() {
 
+    val REQUEST_CODE = 100
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -53,6 +55,17 @@ class ProfileFragment : Fragment() {
         btn_publish.setOnClickListener { startActivity(Intent(context, PublishActivity::class.java)) }
         btn_my_novel.setOnClickListener { startActivity(Intent(context, MyNovelActivity::class.java)) }
         btn_about_us.setOnClickListener { startActivity(Intent(context, AboutUsActivity::class.java)) }
+
+        img_profile.setOnClickListener {
+            openGalleryForImage()
+        }
+
+    }
+
+    private fun openGalleryForImage() {
+        val intent = Intent(Intent.ACTION_PICK)
+        intent.type = "image/*"
+        startActivityForResult(intent, REQUEST_CODE)
     }
 
 

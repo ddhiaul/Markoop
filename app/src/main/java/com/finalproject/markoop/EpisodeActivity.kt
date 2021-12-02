@@ -2,8 +2,7 @@ package com.finalproject.markoop
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.finalproject.markoop.genre.GenreModel
-import kotlinx.android.synthetic.main.activity_detail_novel.*
+import com.finalproject.markoop.model.GenreModel
 import kotlinx.android.synthetic.main.activity_episode.*
 
 class EpisodeActivity : AppCompatActivity() {

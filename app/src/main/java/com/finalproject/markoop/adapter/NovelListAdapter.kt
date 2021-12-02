@@ -1,4 +1,4 @@
-package com.finalproject.markoop.genre
+package com.finalproject.markoop.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.finalproject.markoop.R
+import com.finalproject.markoop.model.GenreModel
 import kotlinx.android.synthetic.main.item_genre.view.*
 
 class NovelListAdapter(private val listener: (GenreModel) -> Unit) : RecyclerView.Adapter<NovelListAdapter.ViewHolder>() {

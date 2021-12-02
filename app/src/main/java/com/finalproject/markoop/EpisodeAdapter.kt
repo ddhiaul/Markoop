@@ -4,12 +4,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
-import com.finalproject.markoop.genre.GenreModel
-import com.finalproject.markoop.genre.NovelListAdapter
+import com.finalproject.markoop.model.GenreModel
 import kotlinx.android.synthetic.main.item_episode.view.*
-import kotlinx.android.synthetic.main.item_genre.view.*
 
 class EpisodeAdapter(private val listener: (GenreModel) -> Unit) : RecyclerView.Adapter<EpisodeAdapter.ViewHolder>() {
     private val episode = ArrayList<GenreModel>()

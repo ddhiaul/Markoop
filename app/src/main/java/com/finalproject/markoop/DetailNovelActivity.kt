@@ -4,11 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.finalproject.markoop.R
-import com.finalproject.markoop.genre.GenreModel
-import com.finalproject.markoop.genre.NovelListAdapter
+import com.finalproject.markoop.model.GenreModel
 import kotlinx.android.synthetic.main.activity_detail_novel.*
-import kotlinx.android.synthetic.main.fragment_all_genre.*
 
 class DetailNovelActivity : AppCompatActivity() {
     private val listEpisode = ArrayList<GenreModel>()
