@@ -7,13 +7,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.finalproject.markoop.DetailNovelActivity
+import com.finalproject.markoop.detail.DetailNovelActivity
 import com.finalproject.markoop.R
 import com.finalproject.markoop.adapter.HorrorAdapter
-import com.finalproject.markoop.adapter.NovelListAdapter
-import com.finalproject.markoop.model.GenreModel
+import com.finalproject.markoop.detail.DetailHorrorActivity
 import com.finalproject.markoop.model.HorrorModel
-import kotlinx.android.synthetic.main.fragment_all_genre.*
 import kotlinx.android.synthetic.main.fragment_horror.*
 
 class HorrorFragment : Fragment() {
@@ -47,8 +45,8 @@ class HorrorFragment : Fragment() {
     }
 
     private fun showDetails(it: HorrorModel) {
-        val intent = Intent(context, DetailNovelActivity::class.java)
-        intent.putExtra(DetailNovelActivity.KEY_ALL_GENRE, it)
+        val intent = Intent(context, DetailHorrorActivity::class.java)
+        intent.putExtra(DetailHorrorActivity.KEY_ALL_HORROR, it)
         startActivity(intent)
     }
 

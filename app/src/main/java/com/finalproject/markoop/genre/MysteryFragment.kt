@@ -7,13 +7,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.finalproject.markoop.DetailNovelActivity
+import com.finalproject.markoop.detail.DetailNovelActivity
 import com.finalproject.markoop.R
-import com.finalproject.markoop.adapter.HorrorAdapter
 import com.finalproject.markoop.adapter.MysteryAdapter
-import com.finalproject.markoop.model.HorrorModel
+import com.finalproject.markoop.detail.DetailMysteryActivity
 import com.finalproject.markoop.model.MysteryModel
-import kotlinx.android.synthetic.main.fragment_horror.*
 import kotlinx.android.synthetic.main.fragment_mystery.*
 
 class MysteryFragment : Fragment() {
@@ -48,8 +46,8 @@ class MysteryFragment : Fragment() {
     }
 
     private fun showDetails(it: MysteryModel) {
-        val intent = Intent(context, DetailNovelActivity::class.java)
-        intent.putExtra(DetailNovelActivity.KEY_ALL_GENRE, it)
+        val intent = Intent(context, DetailMysteryActivity::class.java)
+        intent.putExtra(DetailMysteryActivity.KEY_ALL_MYSTERY, it)
         startActivity(intent)
     }
 

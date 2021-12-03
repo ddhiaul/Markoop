@@ -7,28 +7,28 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.finalproject.markoop.R
-import com.finalproject.markoop.model.FantasyModel
+import com.finalproject.markoop.model.RomanceModel
 import kotlinx.android.synthetic.main.item_genre.view.*
 
-class FantasyAdapter(private val listener: (FantasyModel) -> Unit) : RecyclerView.Adapter<FantasyAdapter.ViewHolder>() {
-    private val listAllFantasy = ArrayList<FantasyModel>()
+class RomanceAdapter(private val listener: (RomanceModel) -> Unit) : RecyclerView.Adapter<RomanceAdapter.ViewHolder>() {
+    private val listAllRomance = ArrayList<RomanceModel>()
 
-    fun setData(items: ArrayList<FantasyModel>) {
-        listAllFantasy.clear()
-        listAllFantasy.addAll(items)
+    fun setData(items: ArrayList<RomanceModel>) {
+        listAllRomance.clear()
+        listAllRomance.addAll(items)
         notifyDataSetChanged()
     }
 
     class ViewHolder(itemGenre: View) : RecyclerView.ViewHolder(itemGenre) {
-        fun bind(model: FantasyModel, listGenre: (FantasyModel) -> Unit) {
+        fun bind(model: RomanceModel, listGenre: (RomanceModel) -> Unit) {
             with(itemView) {
                 Glide.with(itemView.context)
-                    .load(model.fantasyCover)
+                    .load(model.romanceCover)
                     .apply(RequestOptions().override(800))
                     .into(img_novel_genre)
-                tv_novel_title_genre.setText(model.fantasyTitle)
-                tv_novel_genre_genre.setText(model.fantasyGenre)
-                tv_synopsis_genre.setText(model.fantasySynopsis)
+                tv_novel_title_genre.setText(model.romanceTitle)
+                tv_novel_genre_genre.setText(model.romanceGenre)
+                tv_synopsis_genre.setText(model.romanceSynopsis)
 
                 itemView.setOnClickListener { listGenre(model) }
             }
@@ -42,8 +42,8 @@ class FantasyAdapter(private val listener: (FantasyModel) -> Unit) : RecyclerVie
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(listAllFantasy[position], listener)
+        holder.bind(listAllRomance[position], listener)
     }
 
-    override fun getItemCount(): Int = listAllFantasy.size
+    override fun getItemCount(): Int = listAllRomance.size
 }

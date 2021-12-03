@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.finalproject.markoop.detail.DetailNovelActivity">
+    tools:context=".detail.DetailMysteryActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -21,23 +21,23 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/img_detail_novel"
+                    android:id="@+id/img_detail_mystery"
                     android:layout_width="match_parent"
                     android:layout_height="572dp"
                     android:scaleType="centerInside"/>
 
-<!--                <ImageView-->
-<!--                    android:id="@+id/btn_back_to_novel_list"-->
-<!--                    android:layout_width="21dp"-->
-<!--                    android:layout_height="21dp"-->
-<!--                    android:layout_marginStart="26dp"-->
-<!--                    android:layout_marginTop="26dp"-->
-<!--                    android:src="@drawable/arrow_left" />-->
+                <!--                <ImageView-->
+                <!--                    android:id="@+id/btn_back_to_novel_list"-->
+                <!--                    android:layout_width="21dp"-->
+                <!--                    android:layout_height="21dp"-->
+                <!--                    android:layout_marginStart="26dp"-->
+                <!--                    android:layout_marginTop="26dp"-->
+                <!--                    android:src="@drawable/arrow_left" />-->
 
             </RelativeLayout>
 
             <TextView
-                android:id="@+id/tv_detail_novel_title"
+                android:id="@+id/tv_detail_mystery_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -48,7 +48,7 @@
                 android:textSize="24sp"/>
 
             <TextView
-                android:id="@+id/tv_detail_author"
+                android:id="@+id/tv_detail_mystery_author"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
@@ -67,7 +67,7 @@
                 app:cardCornerRadius="12dp">
 
                 <TextView
-                    android:id="@+id/tv_detail_genre"
+                    android:id="@+id/tv_detail_mystery_genre"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="14dp"
@@ -79,16 +79,16 @@
 
             </androidx.cardview.widget.CardView>
 
-<!--            <com.ms.square.android.expandabletextview.ExpandableTextView-->
-<!--                android:id="@+id/expandable_textview"-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                app:animDuration="2000">-->
+            <!--            <com.ms.square.android.expandabletextview.ExpandableTextView-->
+            <!--                android:id="@+id/expandable_textview"-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                app:animDuration="2000">-->
 
-<!--            </com.ms.square.android.expandabletextview.ExpandableTextView>-->
+            <!--            </com.ms.square.android.expandabletextview.ExpandableTextView>-->
 
             <Button
-                android:id="@+id/btn_read_first_ep"
+                android:id="@+id/btn_read_mystery"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingVertical="12dp"
@@ -103,7 +103,7 @@
                 android:background="@drawable/btn_primary"/>
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rv_episode"
+                android:id="@+id/rv_episode_mystery"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginVertical="28dp"

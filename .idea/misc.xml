@@ -3,10 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/activity_detail_fantasy.xml" value="0.1125" />
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/activity_detail_horror.xml" value="0.1265625" />
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/activity_detail_mystery.xml" value="0.1" />
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/activity_detail_novel.xml" value="0.1" />
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/activity_detail_romance.xml" value="0.1" />
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/activity_episode.xml" value="0.1" />
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/activity_fantasy_episode.xml" value="0.10916919959473151" />
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/activity_horror_episode.xml" value="0.17346014492753623" />
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/activity_mystery_episode.xml" value="0.1" />
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/activity_romance_episode.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/fragment_fantasy.xml" value="0.1265625" />
         <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/fragment_genre.xml" value="0.1" />
         <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/fragment_horror.xml" value="0.1" />
         <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/fragment_mystery.xml" value="0.1" />
         <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/fragment_profile.xml" value="0.12907608695652173" />
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/fragment_romance.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/FUJITSU/AndroidStudioProjects/Project SKL/projectakhir/Markoop/app/src/main/res/layout/item_episode.xml" value="0.10916919959473151" />
         <entry key="app/src/main/res/drawable/bg_input.xml" value="0.19010416666666666" />
         <entry key="app/src/main/res/drawable/btn_primary.xml" value="0.31145833333333334" />
         <entry key="app/src/main/res/drawable/btn_secondary.xml" value="0.31145833333333334" />

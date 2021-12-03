@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Markoop">
         <activity
+            android:name=".episode.activity.RomanceEpisodeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".detail.DetailRomanceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".episode.activity.HorrorEpisodeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".episode.activity.FantasyEpisodeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".detail.DetailFantasyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".detail.DetailMysteryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".detail.DetailHorrorActivity"
+            android:exported="true" />
+        <activity
             android:name=".profile.MyNovelActivity"
             android:exported="true" />
         <activity
@@ -19,7 +40,7 @@
             android:name=".profile.AboutUsActivity"
             android:exported="true" />
         <activity
-            android:name=".EpisodeActivity"
+            android:name=".episode.activity.EpisodeActivity"
             android:exported="true" />
         <activity
             android:name=".landingPage.SignUpActivity"
@@ -28,7 +49,7 @@
             android:name=".landingPage.LoginActivity"
             android:exported="true" />
         <activity
-            android:name=".DetailNovelActivity"
+            android:name=".detail.DetailNovelActivity"
             android:exported="true" />
         <activity
             android:name=".profile.MyFavNovelActivity"

@@ -5,9 +5,15 @@
     android:layout_height="match_parent"
     tools:context="com.finalproject.markoop.genre.RomanceFragment">
 
-    <TextView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="romance fragment" />
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_romance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_genre"/>
+    </RelativeLayout>
 
 </FrameLayout>

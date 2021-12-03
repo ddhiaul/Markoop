@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.viewpager.widget.ViewPager
-import com.finalproject.markoop.DetailNovelActivity
+import com.finalproject.markoop.detail.DetailNovelActivity
 import com.finalproject.markoop.ImageSliderAdapter
 import com.finalproject.markoop.R
 import com.finalproject.markoop.model.GenreModel

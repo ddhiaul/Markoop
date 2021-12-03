@@ -1,26 +1,28 @@
-package com.finalproject.markoop
+package com.finalproject.markoop.episode.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.finalproject.markoop.model.GenreModel
+import com.finalproject.markoop.R
+import com.finalproject.markoop.model.FantasyModel
+import com.finalproject.markoop.model.MysteryModel
 import kotlinx.android.synthetic.main.item_episode.view.*
 
-class EpisodeAdapter(private val listener: (GenreModel) -> Unit) : RecyclerView.Adapter<EpisodeAdapter.ViewHolder>() {
-    private val episode = ArrayList<GenreModel>()
+class FantasyEpisodeAdapter(private val listener: (FantasyModel) -> Unit) : RecyclerView.Adapter<FantasyEpisodeAdapter.ViewHolder>() {
+    private val episode = ArrayList<FantasyModel>()
 
-    fun setData(items: ArrayList<GenreModel>) {
+    fun setData(items: ArrayList<FantasyModel>) {
         episode.clear()
         episode.addAll(items)
         notifyDataSetChanged()
     }
 
     class ViewHolder(itemGenre: View) : RecyclerView.ViewHolder(itemGenre) {
-        fun bind(model: GenreModel, listener: (GenreModel) -> Unit) {
+        fun bind(model: FantasyModel, listener: (FantasyModel) -> Unit) {
             with(itemView) {
-                tv_episodelist_title.setText(model.episodeTitle)
-                tv_episodelist_releasedate.setText(model.releaseDate)
+                tv_episodelist_title.setText(model.fantasyEpisodeTitle)
+                tv_episodelist_releasedate.setText(model.fantasyReleaseDate)
 
                 itemView.setOnClickListener { listener(model) }
             }
@@ -31,7 +33,7 @@ class EpisodeAdapter(private val listener: (GenreModel) -> Unit) : RecyclerView.
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.item_episode, parent, false)
-        return EpisodeAdapter.ViewHolder(view)
+        return ViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
