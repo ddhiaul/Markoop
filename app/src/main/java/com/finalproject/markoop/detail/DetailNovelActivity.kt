@@ -4,9 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.finalproject.markoop.R
 import com.finalproject.markoop.episode.activity.EpisodeActivity
 import com.finalproject.markoop.episode.adapter.EpisodeAdapter
-import com.finalproject.markoop.R
 import com.finalproject.markoop.model.GenreModel
 import kotlinx.android.synthetic.main.activity_detail_novel.*
 

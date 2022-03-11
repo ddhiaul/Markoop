@@ -30,10 +30,10 @@ class DetailRomanceActivity : AppCompatActivity() {
 
         model = intent.getParcelableExtra(KEY_ALL_ROMANCE)
 
-        img_detail_novel.setImageResource(model?.romanceCover!!)
-        tv_detail_novel_title.setText(model?.romanceTitle)
-        tv_detail_author.setText(model?.romanceAuthor)
-        tv_detail_genre.setText(model?.romanceGenre)
+        img_detail_romance.setImageResource(model?.romanceCover!!)
+        tv_detail_romance_title.setText(model?.romanceTitle)
+        tv_detail_romance_author.setText(model?.romanceAuthor)
+        tv_detail_romance_genre.setText(model?.romanceGenre)
 
         rv_episode_romance.setHasFixedSize(true)
         listRomanceEpisode.addAll(getlistEpisode())

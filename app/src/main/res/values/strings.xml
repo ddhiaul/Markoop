@@ -4,6 +4,46 @@
     <string name="go_to_signup">Don\'t have an account? <b>Sing Up</b></string>
     <string name="about">Markoop is an android application that allows users to read and create novels in digital form with various available genres. With the main display that displays all the best novels, which makes it easy for users to choose which genre and story they like. In addition to displaying the best novels, in the main display there is also a search feature, which is a feature that helps users to search for various types of stories and their genres. Markoop also certainly helps authors who want to work by writing stories. There are also certainly many people who have advantages in making or writing a story, but are confused to show their strengths to the world. With the rapid development of technology, an online reading application called Markoop was created, which is a useful application for people who want to express their writings and their stories. This app is a great place to read or write your own story and can be read by people all over the world. In this modern era, people rarely forget to bring their gadgets everywhere. Through this Markoop application we can read various written works for free anywhere and anytime.</string>
 
+    <string-array name="all_genre_title">
+        <item>Bumi</item>
+        <item>Too All the Boys I\'ve Loved Before</item>
+        <item>Journal of Terror</item>
+        <item>Sherlock Holmes</item>
+        <item>Komet</item>
+    </string-array>
+
+    <string-array name="all_genre_genre">
+        <item>Fantasy</item>
+        <item>Romance</item>
+        <item>Horror</item>
+        <item>Mystery</item>
+        <item>Fantasy</item>
+    </string-array>
+
+    <string-array name="all_genre_synopsis">
+        <item>Penelusuran Benang Merah adalah novel fiksi detektif karya Sir Arthur Conan Doyle yang memperkenalkan tokoh detektif konsultan rekaannya, Sherlock Holmes, serta sahabat sekaligus penulis kisah petualangannya, dr. Watson, yang kelak akan menjadi dua tokoh terkenal dalam dunia sastra</item>
+        <item>Penelusuran Benang Merah adalah novel fiksi detektif karya Sir Arthur Conan Doyle yang memperkenalkan tokoh detektif konsultan rekaannya, Sherlock Holmes, serta sahabat sekaligus penulis kisah petualangannya, dr. Watson, yang kelak akan menjadi dua tokoh terkenal dalam dunia sastra</item>
+        <item>Penelusuran Benang Merah adalah novel fiksi detektif karya Sir Arthur Conan Doyle yang memperkenalkan tokoh detektif konsultan rekaannya, Sherlock Holmes, serta sahabat sekaligus penulis kisah petualangannya, dr. Watson, yang kelak akan menjadi dua tokoh terkenal dalam dunia sastra</item>
+        <item>Penelusuran Benang Merah adalah novel fiksi detektif karya Sir Arthur Conan Doyle yang memperkenalkan tokoh detektif konsultan rekaannya, Sherlock Holmes, serta sahabat sekaligus penulis kisah petualangannya, dr. Watson, yang kelak akan menjadi dua tokoh terkenal dalam dunia sastra</item>
+        <item>Penelusuran Benang Merah adalah novel fiksi detektif karya Sir Arthur Conan Doyle yang memperkenalkan tokoh detektif konsultan rekaannya, Sherlock Holmes, serta sahabat sekaligus penulis kisah petualangannya, dr. Watson, yang kelak akan menjadi dua tokoh terkenal dalam dunia sastra</item>
+    </string-array>
+
+    <string-array name="all_genre_author">
+        <item>Tere Liye</item>
+        <item>Jenny Han</item>
+        <item>Sweta Kartika</item>
+        <item>Gillian Flynn</item>
+        <item>Tere Liye</item>
+    </string-array>
+
+    <array name="all_genre_cover">
+        <item>@drawable/bumi</item>
+        <item>@drawable/allboys</item>
+        <item>@drawable/teror</item>
+        <item>@drawable/holmes</item>
+        <item>@drawable/komet</item>
+    </array>
+
     <string-array name="novel_title">
         <item>Bumi</item>
         <item>Bulan</item>
@@ -18,7 +58,6 @@
         <item>Fantasy</item>
         <item>Fantasy</item>
         <item>Fantasy</item>
-        <item>Fantasy</item>
     </string-array>
 
     <string-array name="novel_synopsis">
@@ -27,11 +66,9 @@
         <item>Raib adalah seorang remaja putri berusia 15th. Dia hidup bersama dengan kedua orangtuanya. Dia mempunyai 2 ekor kucing si putih dan si hitam. Dia juga bersekolah seperti remaja kebanyakan dan mempunyai seorang teman dekat bernama Seli. Namun anehnya sesuai dengan namanya, Raib bisa menghilang. Dia bisa menghilangkan dirinya sendiri hanya dengan menutup mata menggunakan kedua tangannya.</item>
         <item>Raib adalah seorang remaja putri berusia 15th. Dia hidup bersama dengan kedua orangtuanya. Dia mempunyai 2 ekor kucing si putih dan si hitam. Dia juga bersekolah seperti remaja kebanyakan dan mempunyai seorang teman dekat bernama Seli. Namun anehnya sesuai dengan namanya, Raib bisa menghilang. Dia bisa menghilangkan dirinya sendiri hanya dengan menutup mata menggunakan kedua tangannya.</item>
         <item>Raib adalah seorang remaja putri berusia 15th. Dia hidup bersama dengan kedua orangtuanya. Dia mempunyai 2 ekor kucing si putih dan si hitam. Dia juga bersekolah seperti remaja kebanyakan dan mempunyai seorang teman dekat bernama Seli. Namun anehnya sesuai dengan namanya, Raib bisa menghilang. Dia bisa menghilangkan dirinya sendiri hanya dengan menutup mata menggunakan kedua tangannya.</item>
-        <item>Raib adalah seorang remaja putri berusia 15th. Dia hidup bersama dengan kedua orangtuanya. Dia mempunyai 2 ekor kucing si putih dan si hitam. Dia juga bersekolah seperti remaja kebanyakan dan mempunyai seorang teman dekat bernama Seli. Namun anehnya sesuai dengan namanya, Raib bisa menghilang. Dia bisa menghilangkan dirinya sendiri hanya dengan menutup mata menggunakan kedua tangannya.</item>
     </string-array>
 
     <string-array name="novel_author">
-        <item>Tere Liye</item>
         <item>Tere Liye</item>
         <item>Tere Liye</item>
         <item>Tere Liye</item>
@@ -48,7 +85,6 @@
     </array>
 
     <string-array name="episode_title">
-        <item>Episode 6</item>
         <item>Episode 5</item>
         <item>Episode 4</item>
         <item>Episode 3</item>
@@ -57,7 +93,6 @@
     </string-array>
 
     <string-array name="release_date">
-        <item>Release on Date Dec 6, 2021</item>
         <item>Release on Date Nov 29, 2021</item>
         <item>Release on Date Nov 22, 2021</item>
         <item>Release on Date Nov 15, 2021</item>
@@ -66,7 +101,6 @@
     </string-array>
 
     <string-array name="headline">
-        <item>SIX</item>
         <item>FIVE</item>
         <item>FOUR</item>
         <item>THREE</item>
@@ -377,7 +411,7 @@
 
 
     <string-array name="romance_title">
-        <item>To All the Boys I've Loved Before</item>
+        <item>To All the Boys Ive Loved Before</item>
         <item>The Architecture of Love</item>
         <item>The Fault in Our Stars</item>
         <item>Friend Zone</item>
@@ -395,11 +429,11 @@
     </string-array>
 
     <string-array name="romance_synopsis">
-        <item>Story of Lara Jean Covey and her family, as they adjust to life after her older sister Margot moves to Scotland to attend college. Lara Jean has to cope with the fallout from her private love letters being mailed to all of her crushes without her sister's advice to guide her.</item>
-        <item>Story of Lara Jean Covey and her family, as they adjust to life after her older sister Margot moves to Scotland to attend college. Lara Jean has to cope with the fallout from her private love letters being mailed to all of her crushes without her sister's advice to guide her.</item>
-        <item>Story of Lara Jean Covey and her family, as they adjust to life after her older sister Margot moves to Scotland to attend college. Lara Jean has to cope with the fallout from her private love letters being mailed to all of her crushes without her sister's advice to guide her.</item>
-        <item>Story of Lara Jean Covey and her family, as they adjust to life after her older sister Margot moves to Scotland to attend college. Lara Jean has to cope with the fallout from her private love letters being mailed to all of her crushes without her sister's advice to guide her.</item>
-        <item>Story of Lara Jean Covey and her family, as they adjust to life after her older sister Margot moves to Scotland to attend college. Lara Jean has to cope with the fallout from her private love letters being mailed to all of her crushes without her sister's advice to guide her.</item>
+        <item>Story of Lara Jean Covey and her family, as they adjust to life after her older sister Margot moves to Scotland to attend college. Lara Jean has to cope with the fallout from her private love letters being mailed to all of her crushes without her sisters advice to guide her.</item>
+        <item>Story of Lara Jean Covey and her family, as they adjust to life after her older sister Margot moves to Scotland to attend college. Lara Jean has to cope with the fallout from her private love letters being mailed to all of her crushes without her sisters advice to guide her.</item>
+        <item>Story of Lara Jean Covey and her family, as they adjust to life after her older sister Margot moves to Scotland to attend college. Lara Jean has to cope with the fallout from her private love letters being mailed to all of her crushes without her sisters advice to guide her.</item>
+        <item>Story of Lara Jean Covey and her family, as they adjust to life after her older sister Margot moves to Scotland to attend college. Lara Jean has to cope with the fallout from her private love letters being mailed to all of her crushes without her sisters advice to guide her.</item>
+        <item>Story of Lara Jean Covey and her family, as they adjust to life after her older sister Margot moves to Scotland to attend college. Lara Jean has to cope with the fallout from her private love letters being mailed to all of her crushes without her sisters advice to guide her.</item>
     </string-array>
 
     <string-array name="romance_author">

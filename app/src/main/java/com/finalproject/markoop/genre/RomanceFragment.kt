@@ -34,7 +34,7 @@ class RomanceFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        rv_fantasy.setHasFixedSize(true)
+        rv_romance.setHasFixedSize(true)
         listRomance.addAll(getListGenre())
 
         showGenreList()

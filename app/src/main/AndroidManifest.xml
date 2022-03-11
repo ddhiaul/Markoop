@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Markoop">
         <activity
+            android:name=".profile.publish.CreateEpisodeActivity"
+            android:exported="true" />
+        <activity
             android:name=".episode.activity.RomanceEpisodeActivity"
             android:exported="true" />
         <activity
@@ -41,6 +44,9 @@
             android:exported="true" />
         <activity
             android:name=".episode.activity.EpisodeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".episode.activity.MysteryEpisodeActivity"
             android:exported="true" />
         <activity
             android:name=".landingPage.SignUpActivity"

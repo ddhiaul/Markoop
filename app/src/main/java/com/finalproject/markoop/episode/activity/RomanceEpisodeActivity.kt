@@ -5,6 +5,7 @@ import android.os.Bundle
 import com.finalproject.markoop.R
 import com.finalproject.markoop.model.RomanceModel
 import kotlinx.android.synthetic.main.activity_episode.*
+import kotlinx.android.synthetic.main.activity_romance_episode.*
 
 class RomanceEpisodeActivity : AppCompatActivity() {
 
@@ -20,12 +21,12 @@ class RomanceEpisodeActivity : AppCompatActivity() {
 
         model = intent.getParcelableExtra(KEY_ROMANCE_EPISODE)
 
-        tv_episode.setText(model?.romanceEpisodeTitle)
-        tv_novel_title_episode.setText(model?.romanceTitle)
-        tv_author_episode.setText("by ${model?.romanceAuthor}")
-        tv_headlines.setText(model?.romanceHeadline)
-        tv_release_date.setText(model?.romanceReleaseDate)
-        tv_content.setText(model?.romanceContent)
+        tv_episode_romance.setText(model?.romanceEpisodeTitle)
+        tv_romance_title_episode.setText(model?.romanceTitle)
+        tv_romance_author_episode.setText("by ${model?.romanceAuthor}")
+        tv_headlines_romance.setText(model?.romanceHeadline)
+        tv_release_date_romance.setText(model?.romanceReleaseDate)
+        tv_content_romance.setText(model?.romanceContent)
 
     }
 }

@@ -28,10 +28,10 @@ class DetailHorrorActivity : AppCompatActivity() {
 
         model = intent.getParcelableExtra(KEY_ALL_HORROR)
 
-        img_detail_novel.setImageResource(model?.horrorCover!!)
-        tv_detail_novel_title.setText(model?.horrorTitle)
-        tv_detail_author.setText(model?.horrorAuthor)
-        tv_detail_genre.setText(model?.horrorGenre)
+        img_detail_horror.setImageResource(model?.horrorCover!!)
+        tv_detail_horror_title.setText(model?.horrorTitle)
+        tv_detail_horror_author.setText(model?.horrorAuthor)
+        tv_detail_horror_genre.setText(model?.horrorGenre)
 
         rv_episode_horror.setHasFixedSize(true)
         listHorrorEpisode.addAll(getlistEpisode())

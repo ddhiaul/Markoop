@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import com.finalproject.markoop.profile.MyFavNovelActivity
 import kotlinx.android.synthetic.main.fragment_profile.*
 import android.content.Context.MODE_PRIVATE
+import com.finalproject.markoop.landingPage.SplashScreen
 import com.finalproject.markoop.profile.AboutUsActivity
 import com.finalproject.markoop.profile.MyNovelActivity
 
@@ -55,6 +56,7 @@ class ProfileFragment : Fragment() {
         btn_publish.setOnClickListener { startActivity(Intent(context, PublishActivity::class.java)) }
         btn_my_novel.setOnClickListener { startActivity(Intent(context, MyNovelActivity::class.java)) }
         btn_about_us.setOnClickListener { startActivity(Intent(context, AboutUsActivity::class.java)) }
+        btn_logout.setOnClickListener { startActivity(Intent(context, SplashScreen::class.java)) }
 
         img_profile.setOnClickListener {
             openGalleryForImage()

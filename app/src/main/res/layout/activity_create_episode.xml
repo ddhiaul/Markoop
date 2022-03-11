@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context=".profile.publish.CreateEpisodeActivity">
+
+    <ImageView
+        android:id="@+id/btn_add_ep_to_publish"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/arrow_left"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:gravity="center"
+        android:text="Add Episode"
+        android:textColor="@color/mainText"
+        android:textSize="21sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novel"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/mainText"
+        android:textSize="12sp"
+        android:layout_marginTop="88dp"
+        android:layout_marginStart="36dp"/>
+
+    <EditText
+        android:id="@+id/et_pick_novel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="75dp"
+        android:hint="My Novel"
+        android:padding="12dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Headlines"
+        android:fontFamily="@font/montserrat_regular"
+        android:textColor="@color/mainText"
+        android:textSize="12sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="36dp"/>
+
+    <EditText
+        android:id="@+id/et_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_input"
+        android:layout_marginStart="115dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="22dp"
+        android:hint="ONE"
+        android:padding="12dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="12sp"
+        android:layout_below="@+id/et_pick_novel"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="203dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider"
+        android:hint="Content"
+        android:fontFamily="@font/montserrat_regular"
+        android:textSize="12sp"
+        android:textColor="@color/mainText"
+        android:gravity="top"
+        android:paddingTop="22dp"
+        android:paddingHorizontal="36dp"
+        android:background="@color/mainBackground"
+        android:layout_marginBottom="104dp"/>
+
+    <Button
+        android:id="@+id/btn_save_episode"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="42dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/btn_primary"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/mainBackground"
+        android:textSize="12sp" />
+
+
+</RelativeLayout>

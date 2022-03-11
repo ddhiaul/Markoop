@@ -4,23 +4,15 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.finalproject.markoop.episode.adapter.EpisodeAdapter
 import com.finalproject.markoop.R
-import com.finalproject.markoop.adapter.FantasyAdapter
-import com.finalproject.markoop.adapter.HorrorAdapter
-import com.finalproject.markoop.episode.activity.EpisodeActivity
 import com.finalproject.markoop.episode.activity.FantasyEpisodeActivity
 import com.finalproject.markoop.episode.activity.MysteryEpisodeActivity
 import com.finalproject.markoop.episode.adapter.FantasyEpisodeAdapter
-import com.finalproject.markoop.episode.adapter.HorrorEpisodeAdapter
-import com.finalproject.markoop.episode.adapter.MysteryEpisodeAdapter
 import com.finalproject.markoop.model.FantasyModel
 import com.finalproject.markoop.model.HorrorModel
 import com.finalproject.markoop.model.MysteryModel
 import kotlinx.android.synthetic.main.activity_detail_fantasy.*
-import kotlinx.android.synthetic.main.activity_detail_horror.*
-import kotlinx.android.synthetic.main.activity_detail_mystery.*
-import kotlinx.android.synthetic.main.activity_detail_novel.*
+
 
 class DetailFantasyActivity : AppCompatActivity() {
 
@@ -39,10 +31,10 @@ class DetailFantasyActivity : AppCompatActivity() {
 
         model = intent.getParcelableExtra(KEY_ALL_FANTASY)
 
-        img_detail_novel.setImageResource(model?.fantasyCover!!)
-        tv_detail_novel_title.setText(model?.fantasyTitle)
-        tv_detail_author.setText(model?.fantasyAuthor)
-        tv_detail_genre.setText(model?.fantasyGenre)
+        img_detail_fantasy.setImageResource(model?.fantasyCover!!)
+        tv_detail_fantasy_title.setText(model?.fantasyTitle)
+        tv_detail_fantasy_author.setText(model?.fantasyAuthor)
+        tv_detail_fantasy_genre.setText(model?.fantasyGenre)
 
         rv_episode_fantasy.setHasFixedSize(true)
         listFantasyEpisode.addAll(getlistEpisode())

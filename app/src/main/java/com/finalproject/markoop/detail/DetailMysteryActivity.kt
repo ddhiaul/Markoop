@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.finalproject.markoop.R
-import com.finalproject.markoop.episode.activity.EpisodeActivity
 import com.finalproject.markoop.episode.activity.MysteryEpisodeActivity
-import com.finalproject.markoop.episode.adapter.EpisodeAdapter
 import com.finalproject.markoop.episode.adapter.MysteryEpisodeAdapter
 import com.finalproject.markoop.model.GenreModel
 import com.finalproject.markoop.model.MysteryModel
+import kotlinx.android.synthetic.main.activity_detail_horror.*
 import kotlinx.android.synthetic.main.activity_detail_mystery.*
 import kotlinx.android.synthetic.main.activity_detail_novel.*
+import kotlinx.android.synthetic.main.activity_detail_novel.img_detail_novel
 
 class DetailMysteryActivity : AppCompatActivity() {
 
@@ -31,10 +31,10 @@ class DetailMysteryActivity : AppCompatActivity() {
 
         model = intent.getParcelableExtra(KEY_ALL_MYSTERY)
 
-        img_detail_novel.setImageResource(model?.mysteryCover!!)
-        tv_detail_novel_title.setText(model?.mysteryTitle)
-        tv_detail_author.setText(model?.mysteryAuthor)
-        tv_detail_genre.setText(model?.mysteryGenre)
+        img_detail_mystery.setImageResource(model?.mysteryCover!!)
+        tv_detail_mystery_title.setText(model?.mysteryTitle)
+        tv_detail_mystery_author.setText(model?.mysteryAuthor)
+        tv_detail_mystery_genre.setText(model?.mysteryGenre)
 
         rv_episode_mystery.setHasFixedSize(true)
         listMysteryEpisode.addAll(getlistEpisode())
